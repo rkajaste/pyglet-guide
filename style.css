@@ -14,8 +14,9 @@ main {
 }
 
 .side-menu {
+  position: fixed;
   height: 100%;
-  width: 400px;
+  width: 300px;
   background-color: #3a3a3a;
 }
 
@@ -43,10 +44,10 @@ main {
 .content {
   height: 100%;
   width: 100%;
-}
-.content {
   text-align: center;
+  margin-left: 300px;
 }
+
 .content-area {
   margin-top: 60px;
 }
